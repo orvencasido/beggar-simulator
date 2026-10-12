@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "qualifications.schema.json",
+  "title": "qualifications authoring hints",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]{0,63}$"
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "tuition": {
+        "type": "string",
+        "pattern": "^(0|[1-9][0-9]{0,59})$"
+      },
+      "studyDays": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10000000
+      },
+      "collegeIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "maxItems": 512
+      },
+      "available": {
+        "type": "boolean"
+      },
+      "icon": {
+        "enum": [
+          "briefcase",
+          "school",
+          "home",
+          "car",
+          "bag",
+          "flag",
+          "heart",
+          "watch",
+          "shirt",
+          "music",
+          "plane",
+          "bank"
+        ]
+      }
+    },
+    "required": [
+      "available",
+      "collegeIds",
+      "icon",
+      "id",
+      "name",
+      "studyDays",
+      "tuition"
+    ]
+  },
+  "maxItems": 512
+}

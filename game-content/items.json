@@ -1,0 +1,701 @@
+[
+  {
+    "id": "bread",
+    "name": "Bread",
+    "price": "25",
+    "category": "food",
+    "effect": "food",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    },
+    "hungerRestore": 25
+  },
+  {
+    "id": "meal",
+    "name": "Full meal",
+    "price": "100",
+    "category": "food",
+    "effect": "food",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    },
+    "hungerRestore": 80
+  },
+  {
+    "id": "premium_meal",
+    "name": "Premium meal",
+    "price": "180",
+    "category": "food",
+    "effect": "food",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    },
+    "hungerRestore": 100
+  },
+  {
+    "id": "bike",
+    "name": "Bike",
+    "price": "2500",
+    "category": "vehicles",
+    "effect": "unlock",
+    "available": true,
+    "icon": "car",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "delivery_kit",
+    "name": "Delivery kit",
+    "price": "10000",
+    "category": "equipment",
+    "effect": "unlock",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "trade_tools",
+    "name": "Trade tools",
+    "price": "15000",
+    "category": "equipment",
+    "effect": "unlock",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "laptop",
+    "name": "Laptop",
+    "price": "45000",
+    "category": "technology",
+    "effect": "unlock",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "room",
+    "name": "Room",
+    "price": "12000",
+    "category": "housing",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "home",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "studio",
+    "name": "Studio",
+    "price": "60000",
+    "category": "housing",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "home",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "apartment",
+    "name": "Apartment",
+    "price": "200000",
+    "category": "housing",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "home",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "small_house",
+    "name": "Small House",
+    "price": "600000",
+    "category": "housing",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "home",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "townhouse",
+    "name": "Townhouse",
+    "price": "1500000",
+    "category": "housing",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "home",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "villa",
+    "name": "Villa",
+    "price": "4000000",
+    "category": "housing",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "home",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "penthouse",
+    "name": "Penthouse",
+    "price": "7000000",
+    "category": "housing",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "home",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "estate",
+    "name": "Estate",
+    "price": "12000000",
+    "category": "housing",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "home",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "scooter",
+    "name": "Scooter",
+    "price": "18000",
+    "category": "vehicles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "car",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "used_car",
+    "name": "Used Car",
+    "price": "60000",
+    "category": "vehicles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "car",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "sedan",
+    "name": "Sedan",
+    "price": "180000",
+    "category": "vehicles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "car",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "suv",
+    "name": "Suv",
+    "price": "350000",
+    "category": "vehicles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "car",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "sports_car",
+    "name": "Sports Car",
+    "price": "700000",
+    "category": "vehicles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "car",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "luxury_car",
+    "name": "Luxury Car",
+    "price": "1200000",
+    "category": "vehicles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "car",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "supercar",
+    "name": "Supercar",
+    "price": "2500000",
+    "category": "vehicles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "car",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "starter_motorcycle",
+    "name": "Starter Motorcycle",
+    "price": "25000",
+    "category": "motorcycles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "touring_motorcycle",
+    "name": "Touring Motorcycle",
+    "price": "100000",
+    "category": "motorcycles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "premium_motorcycle",
+    "name": "Premium Motorcycle",
+    "price": "300000",
+    "category": "motorcycles",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "smartphone",
+    "name": "Smartphone",
+    "price": "8000",
+    "category": "technology",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "tablet",
+    "name": "Tablet",
+    "price": "15000",
+    "category": "technology",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "gaming_pc",
+    "name": "Gaming Pc",
+    "price": "80000",
+    "category": "technology",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "workstation",
+    "name": "Workstation",
+    "price": "150000",
+    "category": "technology",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "home_cinema",
+    "name": "Home Cinema",
+    "price": "250000",
+    "category": "technology",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "everyday_watch",
+    "name": "Everyday Watch",
+    "price": "5000",
+    "category": "jewelry",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "mechanical_watch",
+    "name": "Mechanical Watch",
+    "price": "40000",
+    "category": "jewelry",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "necklace",
+    "name": "Necklace",
+    "price": "60000",
+    "category": "jewelry",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "ring",
+    "name": "Ring",
+    "price": "100000",
+    "category": "jewelry",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "luxury_watch",
+    "name": "Luxury Watch",
+    "price": "400000",
+    "category": "jewelry",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "casual_outfit",
+    "name": "Casual Outfit",
+    "price": "2000",
+    "category": "fashion",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "tailored_suit",
+    "name": "Tailored Suit",
+    "price": "20000",
+    "category": "fashion",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "designer_outfit",
+    "name": "Designer Outfit",
+    "price": "100000",
+    "category": "fashion",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "bed",
+    "name": "Bed",
+    "price": "15000",
+    "category": "furnishings",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "desk",
+    "name": "Desk",
+    "price": "20000",
+    "category": "furnishings",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "sofa",
+    "name": "Sofa",
+    "price": "35000",
+    "category": "furnishings",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "artwork",
+    "name": "Artwork",
+    "price": "120000",
+    "category": "furnishings",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "music_room",
+    "name": "Music Room",
+    "price": "300000",
+    "category": "furnishings",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "sports_kit",
+    "name": "Sports Kit",
+    "price": "5000",
+    "category": "hobbies",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "guitar",
+    "name": "Guitar",
+    "price": "12000",
+    "category": "hobbies",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "camera",
+    "name": "Camera",
+    "price": "30000",
+    "category": "hobbies",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "piano",
+    "name": "Piano",
+    "price": "100000",
+    "category": "hobbies",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "weekend_trip",
+    "name": "Weekend Trip",
+    "price": "10000",
+    "category": "travel",
+    "effect": "travel",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "retreat",
+    "name": "Retreat",
+    "price": "40000",
+    "category": "travel",
+    "effect": "travel",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "island_holiday",
+    "name": "Island Holiday",
+    "price": "150000",
+    "category": "travel",
+    "effect": "travel",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "world_tour",
+    "name": "World Tour",
+    "price": "500000",
+    "category": "travel",
+    "effect": "travel",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "rare_books",
+    "name": "Rare Books",
+    "price": "50000",
+    "category": "collections",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "vintage_car",
+    "name": "Vintage Car",
+    "price": "900000",
+    "category": "collections",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "rare_artwork",
+    "name": "Rare Artwork",
+    "price": "1000000",
+    "category": "collections",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "pool",
+    "name": "Pool",
+    "price": "500000",
+    "category": "luxury",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "holiday_home",
+    "name": "Holiday Home",
+    "price": "3000000",
+    "category": "luxury",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "yacht",
+    "name": "Yacht",
+    "price": "8000000",
+    "category": "luxury",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  },
+  {
+    "id": "private_jet",
+    "name": "Private Jet",
+    "price": "15000000",
+    "category": "luxury",
+    "effect": "cosmetic",
+    "available": true,
+    "icon": "bag",
+    "requirements": {
+      "itemIds": []
+    }
+  }
+]

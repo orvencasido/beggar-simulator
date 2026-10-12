@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manifest.schema.json",
+  "title": "manifest authoring hints",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "schemaVersion",
+    "engineVersion",
+    "releaseNotes"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "maxLength": 120
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "engineVersion": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "releaseNotes": {
+      "type": "string",
+      "maxLength": 4000
+    }
+  }
+}

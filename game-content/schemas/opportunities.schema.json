@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "opportunities.schema.json",
+  "title": "opportunities authoring hints",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]{0,63}$"
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "kind": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "firstDay": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10000000
+      },
+      "intervalDays": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10000000
+      },
+      "requiredWorkDays": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10000000
+      },
+      "durationDays": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10000000
+      },
+      "bonusDivisor": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10000000
+      },
+      "lifeBonusCap": {
+        "type": "string",
+        "pattern": "^(0|[1-9][0-9]{0,59})$"
+      },
+      "available": {
+        "type": "boolean"
+      },
+      "icon": {
+        "enum": [
+          "briefcase",
+          "school",
+          "home",
+          "car",
+          "bag",
+          "flag",
+          "heart",
+          "watch",
+          "shirt",
+          "music",
+          "plane",
+          "bank"
+        ]
+      }
+    },
+    "required": [
+      "available",
+      "bonusDivisor",
+      "durationDays",
+      "firstDay",
+      "icon",
+      "id",
+      "intervalDays",
+      "kind",
+      "lifeBonusCap",
+      "name",
+      "requiredWorkDays"
+    ]
+  },
+  "maxItems": 512
+}

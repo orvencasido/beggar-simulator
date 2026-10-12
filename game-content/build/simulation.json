@@ -1,0 +1,186 @@
+{
+  "version": "lifetime_v2_1",
+  "digest": "3a94a3644d44a66802c6b19e5fe2c308b6cf92822404d9e214968edcd923412b",
+  "simulations": [
+    {
+      "careerId": "survival",
+      "seed": 12345,
+      "status": "age_limit",
+      "days": 29930,
+      "age": 100,
+      "workEarned": "393933",
+      "wallet": "200",
+      "savings": "314117",
+      "interest": "125584",
+      "opportunityIncome": "0",
+      "qualifications": [],
+      "jobId": "begging",
+      "workDays": 26260,
+      "finance": {
+        "food": "205200",
+        "tuition": "0",
+        "items": "0",
+        "treatment": "0"
+      }
+    },
+    {
+      "careerId": "delivery",
+      "seed": 12345,
+      "status": "age_limit",
+      "days": 29930,
+      "age": 100,
+      "workEarned": "3453447",
+      "wallet": "200",
+      "savings": "3849080",
+      "interest": "662093",
+      "opportunityIncome": "11340",
+      "qualifications": [],
+      "jobId": "courier",
+      "workDays": 25023,
+      "finance": {
+        "food": "265100",
+        "tuition": "0",
+        "items": "12500",
+        "treatment": "0"
+      }
+    },
+    {
+      "careerId": "technology",
+      "seed": 12345,
+      "status": "age_limit",
+      "days": 29930,
+      "age": 100,
+      "workEarned": "26165877",
+      "wallet": "200",
+      "savings": "27995081",
+      "interest": "2204844",
+      "opportunityIncome": "91860",
+      "qualifications": [
+        "computing_degree"
+      ],
+      "jobId": "senior_engineer",
+      "workDays": 22661,
+      "finance": {
+        "food": "229800",
+        "tuition": "180000",
+        "items": "57500",
+        "treatment": "0"
+      }
+    },
+    {
+      "careerId": "trades",
+      "seed": 12345,
+      "status": "age_limit",
+      "days": 29930,
+      "age": 100,
+      "workEarned": "23118017",
+      "wallet": "200",
+      "savings": "25332700",
+      "interest": "2450353",
+      "opportunityIncome": "78330",
+      "qualifications": [
+        "trade_certificate"
+      ],
+      "jobId": "master_tradesperson",
+      "workDays": 24261,
+      "finance": {
+        "food": "261300",
+        "tuition": "25000",
+        "items": "27500",
+        "treatment": "0"
+      }
+    },
+    {
+      "careerId": "business",
+      "seed": 12345,
+      "status": "age_limit",
+      "days": 29930,
+      "age": 100,
+      "workEarned": "24616767",
+      "wallet": "200",
+      "savings": "26417492",
+      "interest": "2157165",
+      "opportunityIncome": "88560",
+      "qualifications": [
+        "business_degree"
+      ],
+      "jobId": "executive",
+      "workDays": 22170,
+      "finance": {
+        "food": "227300",
+        "tuition": "160000",
+        "items": "57500",
+        "treatment": "0"
+      }
+    },
+    {
+      "careerId": "healthcare",
+      "seed": 12345,
+      "status": "age_limit",
+      "days": 29930,
+      "age": 100,
+      "workEarned": "17272627",
+      "wallet": "200",
+      "savings": "18649518",
+      "interest": "1762631",
+      "opportunityIncome": "60260",
+      "qualifications": [
+        "nursing_degree"
+      ],
+      "jobId": "senior_nurse",
+      "workDays": 22730,
+      "finance": {
+        "food": "233300",
+        "tuition": "200000",
+        "items": "12500",
+        "treatment": "0"
+      }
+    },
+    {
+      "careerId": "engineering",
+      "seed": 12345,
+      "status": "age_limit",
+      "days": 29930,
+      "age": 100,
+      "workEarned": "25383707",
+      "wallet": "200",
+      "savings": "27139671",
+      "interest": "2174894",
+      "opportunityIncome": "88570",
+      "qualifications": [
+        "engineering_degree"
+      ],
+      "jobId": "lead_engineer",
+      "workDays": 22666,
+      "finance": {
+        "food": "229800",
+        "tuition": "220000",
+        "items": "57500",
+        "treatment": "0"
+      }
+    },
+    {
+      "careerId": "creative",
+      "seed": 12345,
+      "status": "age_limit",
+      "days": 29930,
+      "age": 100,
+      "workEarned": "23667237",
+      "wallet": "200",
+      "savings": "25791837",
+      "interest": "2371040",
+      "opportunityIncome": "80960",
+      "qualifications": [
+        "design_certificate"
+      ],
+      "jobId": "art_director",
+      "workDays": 23628,
+      "finance": {
+        "food": "229700",
+        "tuition": "40000",
+        "items": "57500",
+        "treatment": "0"
+      }
+    }
+  ]
+}

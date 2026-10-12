@@ -1,0 +1,54 @@
+{
+  "startAge": 18,
+  "endAge": 100,
+  "daysPerYear": 365,
+  "startingHunger": 100,
+  "startingSanity": 100,
+  "startingHealth": 10000,
+  "starterJobId": "begging",
+  "ageBands": [
+    {
+      "startAge": 18,
+      "basalHunger": 4,
+      "healthLoss": 0
+    },
+    {
+      "startAge": 40,
+      "basalHunger": 5,
+      "healthLoss": 5
+    },
+    {
+      "startAge": 60,
+      "basalHunger": 6,
+      "healthLoss": 15
+    },
+    {
+      "startAge": 75,
+      "basalHunger": 7,
+      "healthLoss": 30
+    },
+    {
+      "startAge": 90,
+      "basalHunger": 8,
+      "healthLoss": 50
+    }
+  ],
+  "restSanity": 25,
+  "restHealth": 400,
+  "checkupHealth": 3000,
+  "checkupPrice": "250",
+  "studyStrain": 1,
+  "studySanity": 2,
+  "bankUnlockEarned": "10000",
+  "bankMinimumDeposit": "100",
+  "bankTier": "500000",
+  "bankNumeratorBase": 4,
+  "bankNumeratorExcess": 1,
+  "bankAnnualNumeratorCap": "20000000",
+  "bankDenominator": 146000,
+  "workWeekUnlockDays": 200,
+  "maximumWeekDays": 7,
+  "dailyRate": 4,
+  "dailyBurst": 8,
+  "maximumOfflineDays": 1200
+}

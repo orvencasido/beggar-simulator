@@ -1,0 +1,56 @@
+[
+  {
+    "id": "survival",
+    "name": "A beginning",
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "delivery",
+    "name": "Delivery",
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "freelance",
+    "name": "Freelance",
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "trades",
+    "name": "Trades",
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "technology",
+    "name": "Technology",
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "business",
+    "name": "Business",
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare",
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "creative",
+    "name": "Creative",
+    "available": true,
+    "icon": "briefcase"
+  }
+]

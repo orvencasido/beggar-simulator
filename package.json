@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "dependencies": {
     "@expo/ui": "~57.0.22",
+    "@supabase/supabase-js": "^2.117.3",
     "expo": "~57.0.27",
     "expo-constants": "~57.0.21",
+    "expo-crypto": "~57.0.3",
     "expo-device": "~57.0.2",
     "expo-font": "~57.0.4",
     "expo-glass-effect": "~57.0.4",
@@ -13,6 +15,7 @@
     "expo-linking": "~57.0.12",
     "expo-router": "~57.0.25",
     "expo-splash-screen": "~57.0.9",
+    "expo-sqlite": "~57.0.4",
     "expo-status-bar": "~57.0.1",
     "expo-symbols": "~57.0.3",
     "expo-system-ui": "~57.0.4",
@@ -28,16 +31,40 @@
     "react-native-worklets": "0.10.1"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
     "@types/react": "~19.2.2",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~57.0.2",
+    "tsx": "^4.23.15",
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit",
+    "test:game": "tsx --test tests/game.test.ts",
+    "test:database": "tsx --test tests/database.test.ts",
+    "test": "tsx --test tests/content-v2.test.ts tests/database-v2.test.ts tests/database.test.ts tests/edge-v2.test.ts tests/engine-v2.test.ts tests/game.test.ts tests/local-controller.test.ts",
+    "test:browser": "node tests/browser-smoke.mjs",
+    "test:cloud": "node tests/cloud-smoke.mjs",
+    "test:cloud-browser": "node tests/cloud-browser-smoke.mjs",
+    "content:validate": "tsx scripts/content/cli.ts validate",
+    "content:compile": "tsx scripts/content/cli.ts compile",
+    "content:simulate": "tsx scripts/content/cli.ts simulate",
+    "content:diff": "tsx scripts/content/cli.ts diff",
+    "content:publish": "tsx scripts/content/cli.ts publish",
+    "test:engine": "tsx --test tests/engine-v2.test.ts",
+    "test:edge": "tsx --test tests/edge-v2.test.ts",
+    "test:database-v2": "tsx --test tests/database-v2.test.ts",
+    "test:cloud-v2": "node tests/cloud-v2-smoke.mjs",
+    "test:content": "tsx --test tests/content-v2.test.ts",
+    "test:browser-v2": "node tests/browser-v2-smoke.mjs",
+    "test:browser-cloud-v2": "node tests/browser-v2-cloud-smoke.mjs"
   },
   "private": true
 }

@@ -1,0 +1,183 @@
+{
+  "one_year_examples": [
+    {
+      "initial": 100000,
+      "balance_after_365_days": 101004,
+      "interest": 1004
+    },
+    {
+      "initial": 500000,
+      "balance_after_365_days": 505006,
+      "interest": 5006
+    },
+    {
+      "initial": 1000000,
+      "balance_after_365_days": 1006257,
+      "interest": 6257
+    },
+    {
+      "initial": 15000000,
+      "balance_after_365_days": 15041301,
+      "interest": 41301
+    },
+    {
+      "initial": 20000000,
+      "balance_after_365_days": 20050000,
+      "interest": 50000
+    }
+  ],
+  "lifetime_scenarios": [
+    {
+      "route": "begging",
+      "begging_reward": 15,
+      "days": 29930,
+      "gross_work": 393900,
+      "interest": 125674,
+      "spent": 205200,
+      "wallet": 200,
+      "bank": 314174,
+      "liquid_total": 314374,
+      "counts": {
+        "work": 26260,
+        "eat": 2052,
+        "rest": 1618,
+        "study": 0
+      },
+      "milestone_ages": {}
+    },
+    {
+      "route": "courier",
+      "begging_reward": 15,
+      "days": 29930,
+      "gross_work": 3454010,
+      "interest": 660946,
+      "spent": 277600,
+      "wallet": 200,
+      "bank": 3837156,
+      "liquid_total": 3837356,
+      "counts": {
+        "work": 25023,
+        "eat": 2651,
+        "rest": 2256,
+        "study": 0
+      },
+      "milestone_ages": {
+        "bike": 18.82,
+        "delivery_kit": 19.38
+      }
+    },
+    {
+      "route": "technology",
+      "begging_reward": 15,
+      "days": 29930,
+      "gross_work": 26185700,
+      "interest": 2203036,
+      "spent": 467300,
+      "wallet": 200,
+      "bank": 27921236,
+      "liquid_total": 27921436,
+      "counts": {
+        "work": 22660,
+        "eat": 2298,
+        "rest": 3512,
+        "study": 1460
+      },
+      "milestone_ages": {
+        "bike": 18.82,
+        "delivery_kit": 19.38,
+        "laptop": 20.46,
+        "enrolled": 22.76,
+        "graduated": 32.1,
+        "junior": 32.1,
+        "engineer": 36.98,
+        "senior": 47.19
+      }
+    },
+    {
+      "route": "business",
+      "begging_reward": 15,
+      "days": 29930,
+      "gross_work": 24630090,
+      "interest": 2154562,
+      "spent": 444800,
+      "wallet": 200,
+      "bank": 26339652,
+      "liquid_total": 26339852,
+      "counts": {
+        "work": 22169,
+        "eat": 2273,
+        "rest": 4028,
+        "study": 1460
+      },
+      "milestone_ages": {
+        "bike": 18.82,
+        "delivery_kit": 19.38,
+        "laptop": 20.46,
+        "enrolled": 22.5,
+        "graduated": 31.85,
+        "analyst": 31.85,
+        "manager": 36.73,
+        "executive": 46.94
+      }
+    },
+    {
+      "route": "trades",
+      "begging_reward": 15,
+      "days": 29930,
+      "gross_work": 23120260,
+      "interest": 2446606,
+      "spent": 313800,
+      "wallet": 200,
+      "bank": 25252866,
+      "liquid_total": 25253066,
+      "counts": {
+        "work": 24260,
+        "eat": 2613,
+        "rest": 2937,
+        "study": 120
+      },
+      "milestone_ages": {
+        "bike": 18.82,
+        "delivery_kit": 19.38,
+        "trade_tools": 19.75,
+        "enrolled": 20.35,
+        "graduated": 21.1,
+        "mechanic": 21.1,
+        "specialist": 24.28,
+        "master": 30.87
+      }
+    },
+    {
+      "route": "technology",
+      "begging_reward": 15,
+      "days": 29930,
+      "gross_work": 26185700,
+      "interest": 1064855,
+      "spent": 21447300,
+      "wallet": 200,
+      "bank": 5803055,
+      "liquid_total": 5803255,
+      "counts": {
+        "work": 22660,
+        "eat": 2298,
+        "rest": 3512,
+        "study": 1460
+      },
+      "milestone_ages": {
+        "bike": 18.82,
+        "delivery_kit": 19.38,
+        "laptop": 20.46,
+        "enrolled": 22.76,
+        "graduated": 32.1,
+        "junior": 32.1,
+        "first_house": 33.4,
+        "sedan": 34.48,
+        "engineer": 36.98,
+        "senior": 47.19,
+        "villa": 49.07,
+        "luxury_car": 51.88,
+        "private_jet": 86.1
+      }
+    }
+  ]
+}

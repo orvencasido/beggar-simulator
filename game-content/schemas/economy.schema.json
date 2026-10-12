@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "economy.schema.json",
+  "title": "economy authoring hints",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "startAge",
+    "endAge",
+    "daysPerYear",
+    "startingHunger",
+    "startingSanity",
+    "startingHealth",
+    "starterJobId",
+    "ageBands",
+    "restSanity",
+    "restHealth",
+    "checkupHealth",
+    "checkupPrice",
+    "studyStrain",
+    "studySanity",
+    "bankUnlockEarned",
+    "bankMinimumDeposit",
+    "bankTier",
+    "bankNumeratorBase",
+    "bankNumeratorExcess",
+    "bankAnnualNumeratorCap",
+    "bankDenominator",
+    "workWeekUnlockDays",
+    "maximumWeekDays",
+    "dailyRate",
+    "dailyBurst",
+    "maximumOfflineDays"
+  ],
+  "properties": {
+    "startAge": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "endAge": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "daysPerYear": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "startingHunger": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "startingSanity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "startingHealth": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "starterJobId": {
+      "type": "string",
+      "maxLength": 120
+    },
+    "ageBands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "startAge": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000000
+          },
+          "basalHunger": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000000
+          },
+          "healthLoss": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000000
+          }
+        },
+        "required": [
+          "basalHunger",
+          "healthLoss",
+          "startAge"
+        ]
+      },
+      "maxItems": 512
+    },
+    "restSanity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "restHealth": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "checkupHealth": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "checkupPrice": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]{0,59})$"
+    },
+    "studyStrain": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "studySanity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "bankUnlockEarned": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]{0,59})$"
+    },
+    "bankMinimumDeposit": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]{0,59})$"
+    },
+    "bankTier": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]{0,59})$"
+    },
+    "bankNumeratorBase": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "bankNumeratorExcess": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "bankAnnualNumeratorCap": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]{0,59})$"
+    },
+    "bankDenominator": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "workWeekUnlockDays": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "maximumWeekDays": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "dailyRate": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "dailyBurst": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    },
+    "maximumOfflineDays": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000000
+    }
+  }
+}

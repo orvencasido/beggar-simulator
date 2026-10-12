@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "items.schema.json",
+  "title": "items authoring hints",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]{0,63}$"
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "price": {
+        "type": "string",
+        "pattern": "^(0|[1-9][0-9]{0,59})$"
+      },
+      "category": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "effect": {
+        "enum": [
+          "food",
+          "unlock",
+          "cosmetic",
+          "travel"
+        ]
+      },
+      "available": {
+        "type": "boolean"
+      },
+      "icon": {
+        "enum": [
+          "briefcase",
+          "school",
+          "home",
+          "car",
+          "bag",
+          "flag",
+          "heart",
+          "watch",
+          "shirt",
+          "music",
+          "plane",
+          "bank"
+        ]
+      },
+      "requirements": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "itemIds"
+        ],
+        "properties": {
+          "itemIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 512,
+            "uniqueItems": true
+          }
+        }
+      },
+      "hungerRestore": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10000000
+      }
+    },
+    "required": [
+      "available",
+      "category",
+      "effect",
+      "icon",
+      "id",
+      "name",
+      "price",
+      "requirements"
+    ]
+  },
+  "maxItems": 512
+}

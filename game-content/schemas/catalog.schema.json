@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "careers",
+    "jobs",
+    "opportunities",
+    "economy",
+    "manifest",
+    "colleges",
+    "qualifications",
+    "ambitions",
+    "goals",
+    "items"
+  ],
+  "properties": {
+    "careers": {
+      "$ref": "careers.schema.json"
+    },
+    "jobs": {
+      "$ref": "jobs.schema.json"
+    },
+    "opportunities": {
+      "$ref": "opportunities.schema.json"
+    },
+    "economy": {
+      "$ref": "economy.schema.json"
+    },
+    "manifest": {
+      "$ref": "manifest.schema.json"
+    },
+    "colleges": {
+      "$ref": "colleges.schema.json"
+    },
+    "qualifications": {
+      "$ref": "qualifications.schema.json"
+    },
+    "ambitions": {
+      "$ref": "ambitions.schema.json"
+    },
+    "goals": {
+      "$ref": "goals.schema.json"
+    },
+    "items": {
+      "$ref": "items.schema.json"
+    }
+  }
+}

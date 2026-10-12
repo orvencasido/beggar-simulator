@@ -1,0 +1,409 @@
+[
+  {
+    "id": "begging",
+    "name": "Begging",
+    "careerId": "survival",
+    "baseEarnings": "12",
+    "maxEarnings": "18",
+    "hungerStrain": 0,
+    "sanityCost": 1,
+    "requirements": {
+      "itemIds": [],
+      "qualificationIds": [],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "newspaper",
+    "name": "Newspaper delivery",
+    "careerId": "delivery",
+    "baseEarnings": "60",
+    "maxEarnings": "60",
+    "hungerStrain": 1,
+    "sanityCost": 1,
+    "requirements": {
+      "itemIds": [
+        "bike"
+      ],
+      "qualificationIds": [],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "courier",
+    "name": "Courier",
+    "careerId": "delivery",
+    "baseEarnings": "140",
+    "maxEarnings": "140",
+    "hungerStrain": 2,
+    "sanityCost": 2,
+    "requirements": {
+      "itemIds": [
+        "bike",
+        "delivery_kit"
+      ],
+      "qualificationIds": [],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer",
+    "careerId": "freelance",
+    "baseEarnings": "260",
+    "maxEarnings": "260",
+    "hungerStrain": 1,
+    "sanityCost": 3,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "mechanic",
+    "name": "Mechanic",
+    "careerId": "trades",
+    "baseEarnings": "350",
+    "maxEarnings": "350",
+    "hungerStrain": 2,
+    "sanityCost": 2,
+    "requirements": {
+      "itemIds": [
+        "trade_tools"
+      ],
+      "qualificationIds": [
+        "trade_certificate"
+      ],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "trade_specialist",
+    "name": "Trade specialist",
+    "careerId": "trades",
+    "baseEarnings": "650",
+    "maxEarnings": "650",
+    "hungerStrain": 2,
+    "sanityCost": 3,
+    "requirements": {
+      "itemIds": [
+        "trade_tools"
+      ],
+      "qualificationIds": [
+        "trade_certificate"
+      ],
+      "familyExperienceDays": 1000
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "master_tradesperson",
+    "name": "Master tradesperson",
+    "careerId": "trades",
+    "baseEarnings": "1050",
+    "maxEarnings": "1050",
+    "hungerStrain": 2,
+    "sanityCost": 3,
+    "requirements": {
+      "itemIds": [
+        "trade_tools"
+      ],
+      "qualificationIds": [
+        "trade_certificate"
+      ],
+      "familyExperienceDays": 3000
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "junior_developer",
+    "name": "Junior developer",
+    "careerId": "technology",
+    "baseEarnings": "550",
+    "maxEarnings": "550",
+    "hungerStrain": 1,
+    "sanityCost": 3,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "computing_degree"
+      ],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "software_engineer",
+    "name": "Software engineer",
+    "careerId": "technology",
+    "baseEarnings": "900",
+    "maxEarnings": "900",
+    "hungerStrain": 1,
+    "sanityCost": 4,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "computing_degree"
+      ],
+      "familyExperienceDays": 1500
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "senior_engineer",
+    "name": "Senior engineer",
+    "careerId": "technology",
+    "baseEarnings": "1450",
+    "maxEarnings": "1450",
+    "hungerStrain": 1,
+    "sanityCost": 4,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "computing_degree"
+      ],
+      "familyExperienceDays": 4500
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "business_analyst",
+    "name": "Business analyst",
+    "careerId": "business",
+    "baseEarnings": "520",
+    "maxEarnings": "520",
+    "hungerStrain": 1,
+    "sanityCost": 3,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "business_degree"
+      ],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "manager",
+    "name": "Manager",
+    "careerId": "business",
+    "baseEarnings": "850",
+    "maxEarnings": "850",
+    "hungerStrain": 1,
+    "sanityCost": 4,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "business_degree"
+      ],
+      "familyExperienceDays": 1500
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "executive",
+    "name": "Executive",
+    "careerId": "business",
+    "baseEarnings": "1400",
+    "maxEarnings": "1400",
+    "hungerStrain": 1,
+    "sanityCost": 5,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "business_degree"
+      ],
+      "familyExperienceDays": 4500
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "nurse",
+    "name": "Nurse",
+    "careerId": "healthcare",
+    "baseEarnings": "500",
+    "maxEarnings": "500",
+    "hungerStrain": 1,
+    "sanityCost": 3,
+    "requirements": {
+      "itemIds": [],
+      "qualificationIds": [
+        "nursing_degree"
+      ],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "senior_nurse",
+    "name": "Senior nurse",
+    "careerId": "healthcare",
+    "baseEarnings": "900",
+    "maxEarnings": "900",
+    "hungerStrain": 1,
+    "sanityCost": 4,
+    "requirements": {
+      "itemIds": [],
+      "qualificationIds": [
+        "nursing_degree"
+      ],
+      "familyExperienceDays": 1500
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "junior_engineer",
+    "name": "Junior engineer",
+    "careerId": "engineering",
+    "baseEarnings": "550",
+    "maxEarnings": "550",
+    "hungerStrain": 1,
+    "sanityCost": 3,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "engineering_degree"
+      ],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "project_engineer",
+    "name": "Project engineer",
+    "careerId": "engineering",
+    "baseEarnings": "950",
+    "maxEarnings": "950",
+    "hungerStrain": 1,
+    "sanityCost": 4,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "engineering_degree"
+      ],
+      "familyExperienceDays": 1500
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "lead_engineer",
+    "name": "Lead engineer",
+    "careerId": "engineering",
+    "baseEarnings": "1400",
+    "maxEarnings": "1400",
+    "hungerStrain": 1,
+    "sanityCost": 4,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "engineering_degree"
+      ],
+      "familyExperienceDays": 4500
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "designer",
+    "name": "Designer",
+    "careerId": "creative",
+    "baseEarnings": "400",
+    "maxEarnings": "400",
+    "hungerStrain": 1,
+    "sanityCost": 3,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "design_certificate"
+      ],
+      "familyExperienceDays": 0
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "senior_designer",
+    "name": "Senior designer",
+    "careerId": "creative",
+    "baseEarnings": "750",
+    "maxEarnings": "750",
+    "hungerStrain": 1,
+    "sanityCost": 4,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "design_certificate"
+      ],
+      "familyExperienceDays": 1500
+    },
+    "available": true,
+    "icon": "briefcase"
+  },
+  {
+    "id": "art_director",
+    "name": "Art director",
+    "careerId": "creative",
+    "baseEarnings": "1150",
+    "maxEarnings": "1150",
+    "hungerStrain": 1,
+    "sanityCost": 4,
+    "requirements": {
+      "itemIds": [
+        "laptop"
+      ],
+      "qualificationIds": [
+        "design_certificate"
+      ],
+      "familyExperienceDays": 4500
+    },
+    "available": true,
+    "icon": "briefcase"
+  }
+]

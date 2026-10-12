@@ -1,18 +1,21 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
-import { useColorScheme } from 'react-native';
+import { Stack } from 'expo-router/stack';
+import { StatusBar } from 'expo-status-bar';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { GameProvider } from '@/features/game/game-provider';
+import { useGameTheme } from '@/constants/game-theme';
 
-import { AnimatedSplashOverlay } from '@/components/animated-icon';
-import AppTabs from '@/components/app-tabs';
+function Navigation() {
+  const colors = useGameTheme();
+  return <>
+    <StatusBar style="auto" />
+    <Stack screenOptions={{ headerStyle: { backgroundColor: colors.background }, headerTintColor: colors.text, headerShadowVisible: false, contentStyle: { backgroundColor: colors.background } }}>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="settings" options={{ title: 'Account and showcase' }} />
+      <Stack.Screen name="game-over" options={{ title: 'Life complete', headerBackVisible: false, gestureEnabled: false }} />
+    </Stack>
+  </>;
+}
 
-SplashScreen.preventAutoHideAsync();
-
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
-  return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <AnimatedSplashOverlay />
-      <AppTabs />
-    </ThemeProvider>
-  );
+export default function RootLayout() {
+  return <SafeAreaProvider><GameProvider><Navigation /></GameProvider></SafeAreaProvider>;
 }

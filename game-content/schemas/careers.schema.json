@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "careers.schema.json",
+  "title": "careers authoring hints",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]{0,63}$"
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "available": {
+        "type": "boolean"
+      },
+      "icon": {
+        "enum": [
+          "briefcase",
+          "school",
+          "home",
+          "car",
+          "bag",
+          "flag",
+          "heart",
+          "watch",
+          "shirt",
+          "music",
+          "plane",
+          "bank"
+        ]
+      }
+    },
+    "required": [
+      "available",
+      "icon",
+      "id",
+      "name"
+    ]
+  },
+  "maxItems": 512
+}

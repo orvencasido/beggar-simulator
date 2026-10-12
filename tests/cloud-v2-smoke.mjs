@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {randomUUID} from 'node:crypto';
+import {createClient} from '@supabase/supabase-js';
+const env=Object.fromEntries((await readFile('.env.local','utf8')).split(/\r?\n/).filter(l=>l&&!l.startsWith('#')).map(l=>{const i=l.indexOf('=');return [l.slice(0,i),l.slice(i+1)];}));
+const url=process.env.EXPO_PUBLIC_SUPABASE_URL??env.EXPO_PUBLIC_SUPABASE_URL;
+const key=process.env.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY??env.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+assert.ok(url&&key,'Public Supabase config required');
+const client=createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false}});
+const auth=await client.auth.signInAnonymously();assert.equal(auth.error,null,'Anonymous test authentication failed');const token=auth.data.session.access_token;
+const deviceId=randomUUID();
+async function edge(body){const r=await fetch(url+'/functions/v1/game-sync',{method:'POST',headers:{authorization:'Bearer '+token,apikey:key,'content-type':'application/json'},body:JSON.stringify(body)});const data=await r.json();if(!r.ok)throw new Error(`EdgeHTTP${r.status}: ${data.error??'failed'}`);return data;}
+const boot=await edge({operation:'bootstrap',deviceId,requestId:randomUUID()});assert.equal(boot.state,null,'Fresh test must require explicit initialize');
+let checkpoint=await edge({operation:'initialize',deviceId,requestId:randomUUID()});assert.equal(checkpoint.state.elapsedDays,0);assert.equal(checkpoint.state.money,'0');assert.equal(checkpoint.state.catalogVersion,checkpoint.catalog.manifest.version);
+const body={operation:'sync',deviceId,sessionId:checkpoint.sessionId,requestId:randomUUID(),baseRevision:checkpoint.revision,startSequence:checkpoint.sequence+1,catalogVersion:checkpoint.catalog.manifest.version,actions:[{type:'work'},{type:'work'}]};
+const verified=await edge(body);assert.equal(verified.processed,2);assert.equal(verified.state.elapsedDays,2);assert.ok(BigInt(verified.state.money)>=24n&&BigInt(verified.state.money)<=36n);assert.equal(verified.sequence,2);assert.deepEqual(await edge(body),verified,'Exactretrymustreturnoriginalreceipt');
+const malformed=await fetch(url+'/functions/v1/game-sync',{method:'POST',headers:{authorization:'Bearer '+token,apikey:key,'content-type':'application/json'},body:JSON.stringify({...body,requestId:randomUUID(),baseRevision:verified.revision,startSequence:verified.sequence+1,actions:[{type:'work',reward:'999999'}]})});assert.equal(malformed.ok,false,'Forgedrewardmustreject');
+checkpoint=await edge({operation:'bootstrap',deviceId,requestId:randomUUID()});assert.equal(checkpoint.sequence,2);assert.equal(checkpoint.state.money,verified.state.money);
+const board=await client.rpc('get_job_leaderboard',{job_id:'begging',limit_count:50});assert.equal(board.error,null,'Leaderboardreadmustwork');assert.ok(Array.isArray(board.data.rows));
+const publish=await fetch(url+'/functions/v1/game-content-publish',{method:'POST',headers:{authorization:'Bearer '+token,apikey:key,'content-type':'application/json'},body:JSON.stringify({catalog:checkpoint.catalog,digest:'0'.repeat(64),activate:true})});assert.equal(publish.ok,false,'Publicusercannotpublishcatalog');
+const newerDevice=randomUUID();const takeover=await client.rpc('takeover_game_v2',{device_id:newerDevice,acknowledge:true});assert.equal(takeover.error,null);assert.notEqual(takeover.data.sessionId,checkpoint.sessionId);
+const former=await edge({...body,requestId:randomUUID(),baseRevision:checkpoint.revision,startSequence:checkpoint.sequence+1,actions:[{type:'work'}]});assert.equal(former.conflict,'writer_conflict');
+const owned=await client.rpc('get_game_v2_snapshot');assert.equal(owned.error,null);assert.equal(owned.data.state.elapsedDays,2);assert.equal(owned.data.sequence,2);
+console.log('Cloud v2 smoke passed: explicit transition, verified days, exact retry, forged-reward rejection, catalog protection, private boards and writer takeover. Created one disposable anonymous test account; no credentials printed.');

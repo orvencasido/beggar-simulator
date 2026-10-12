@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "goals.schema.json",
+  "title": "goals authoring hints",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]{0,63}$"
+      },
+      "name": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "kind": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "targetId": {
+        "type": "string",
+        "maxLength": 120
+      },
+      "targetAmount": {
+        "type": "string",
+        "pattern": "^(0|[1-9][0-9]{0,59})$"
+      },
+      "available": {
+        "type": "boolean"
+      },
+      "icon": {
+        "enum": [
+          "briefcase",
+          "school",
+          "home",
+          "car",
+          "bag",
+          "flag",
+          "heart",
+          "watch",
+          "shirt",
+          "music",
+          "plane",
+          "bank"
+        ]
+      }
+    },
+    "required": [
+      "available",
+      "icon",
+      "id",
+      "kind",
+      "name",
+      "targetAmount",
+      "targetId"
+    ]
+  },
+  "maxItems": 512
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "buy_bike",
+    "name": "Save for a bike",
+    "kind": "own_item",
+    "targetId": "bike",
+    "targetAmount": "1",
+    "available": true,
+    "icon": "flag"
+  },
+  {
+    "id": "buy_small_house",
+    "name": "Save for a home",
+    "kind": "own_item",
+    "targetId": "small_house",
+    "targetAmount": "1",
+    "available": true,
+    "icon": "flag"
+  },
+  {
+    "id": "buy_villa",
+    "name": "Save for a villa",
+    "kind": "own_item",
+    "targetId": "villa",
+    "targetAmount": "1",
+    "available": true,
+    "icon": "flag"
+  },
+  {
+    "id": "buy_private_jet",
+    "name": "Save for a private jet",
+    "kind": "own_item",
+    "targetId": "private_jet",
+    "targetAmount": "1",
+    "available": true,
+    "icon": "flag"
+  },
+  {
+    "id": "graduate_computing_degree",
+    "name": "Graduate in Computing",
+    "kind": "qualification",
+    "targetId": "computing_degree",
+    "targetAmount": "1",
+    "available": true,
+    "icon": "school"
+  },
+  {
+    "id": "graduate_trade_certificate",
+    "name": "Qualify in Trades",
+    "kind": "qualification",
+    "targetId": "trade_certificate",
+    "targetAmount": "1",
+    "available": true,
+    "icon": "school"
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "installed_on": "2026-10-11",
+  "scope": "project .agents/skills",
+  "skills": [
+    {
+      "name": "expo-overview",
+      "repository": "expo/skills",
+      "ref": "main",
+      "path": "plugins/expo/skills/expo-overview",
+      "source": "https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-overview",
+      "file_sha256": {
+        "SKILL.md": "5bad914eebeb816e261f8d626ac0119fda2bfcea4e0fba3ac69dd066440edf30",
+        "agents/openai.yaml": "a488fa6e5659f702b5e27d4bcc1ab601cc64c0fc001404d64fcdef1627f81494"
+      }
+    },
+    {
+      "name": "expo-design-system",
+      "repository": "expo/skills",
+      "ref": "main",
+      "path": "plugins/expo/skills/expo-design-system",
+      "source": "https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-design-system",
+      "file_sha256": {
+        "SKILL.md": "581d755baacc268373229f79546ddd6907bbf4f002e5182b9ec6c72ad0c8f31d",
+        "agents/openai.yaml": "16d7f7f1bb47bc02fa2a816280403bfaccd24e436672cd1503670fcc2a42fd26",
+        "references/audit.md": "a0ead76ab904c119a1353d8d91b9138144a97da43fdff683f291f2d45d868915",
+        "references/native-slop.md": "5662bd04ac2d6367fc4ca3ae355ec1b970752dcd8693a099a5e0792227eb09c1"
+      }
+    },
+    {
+      "name": "expo-native-ui",
+      "repository": "expo/skills",
+      "ref": "main",
+      "path": "plugins/expo/skills/expo-native-ui",
+      "source": "https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-native-ui",
+      "file_sha256": {
+        "SKILL.md": "f6f92e12c7ba5e6cd7e731734286ae707adda873227c563ceb2d0f9ac5037107",
+        "agents/openai.yaml": "90bf5d66b1038913fea37bd6d57292eb6ecd0e0ee3b2bc3e283facc033f4b2b0",
+        "references/controls.md": "6ec427731a65ffd66b745733665bb2c00992750c7d3710893d1bbf70b427d541",
+        "references/gradients.md": "63ced0392f67c41bf90e726613d139a389db609799bfcb91124e6e69b9a66e70",
+        "references/icons.md": "2c0622d8a3f61626a72fa7829d3044f3391cbd8ca91806f4752926cf4e66be59",
+        "references/media.md": "c964182dfbcaa5eef00b947e0425f5a39ee2cfc1b2a4e251ba51fc823e87b0dc",
+        "references/storage.md": "265e8bc21adcd698062f18fa442e0e07e99e67868576f18aac2112e5381ffbf1",
+        "references/visual-effects.md": "dcdcaa5e0bf5c20341455e39d91312ca5f3034391908f77eb2e577044283adcc",
+        "references/webgpu-three.md": "3a247a7740e4bab4aea5dec8b81c7782a5918bb221838a05f6a94c669f145679"
+      }
+    },
+    {
+      "name": "expo-ui",
+      "repository": "expo/skills",
+      "ref": "main",
+      "path": "plugins/expo/skills/expo-ui",
+      "source": "https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-ui",
+      "file_sha256": {
+        "SKILL.md": "2634a4eb1524b43262e9932f3527f3823c82d5be6cf76437c3a05e5753930bf7",
+        "agents/openai.yaml": "abe551630c5975e13cd06a55a698a880b0663b63436966abdd50053fcccafe5a",
+        "references/drop-in-replacements.md": "0929fb52954dd0a359a2925a23c392f650d0976f25d93bca190e5b9ff200373f",
+        "references/jetpack-compose.md": "7322bb663fa260b3521c092f425e5d27589bd87e6a6a653e8864bd6f5f9ad749",
+        "references/swift-ui.md": "9b2727190bd49dd5ddd495ce702745f9490bd7ed9a42d9bd9c7cb75219084f8e",
+        "references/universal.md": "9b015890560b41c535f44cf65528acee6bd1a98485e43e240aa4cd89da714d59",
+        "scripts/list-components.js": "cbc16cdbb2b924a3d73898e1baa3f9c5c634f513383d1a531b2d9ff6f2171f4c"
+      }
+    },
+    {
+      "name": "expo-router",
+      "repository": "expo/skills",
+      "ref": "main",
+      "path": "plugins/expo/skills/expo-router",
+      "source": "https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-router",
+      "file_sha256": {
+        "SKILL.md": "71d0e312f432a809a6fd91583846644e82e0ba842ee05a41c179ce9dc222dcdb",
+        "agents/openai.yaml": "7b76d9331a33e06e61504db9af069bccc8ab4a02e2f8be92727e8e0f9ad7941d",
+        "references/form-sheet.md": "947de9cf35a15aacf3f02e96e45942b5e4826e536e529570886e5ddbb7ec8591",
+        "references/route-structure.md": "4c3d70edeb7e36d965c4d96fa150f23ee57e01be5f6c57dd3e34c6309aab7e87",
+        "references/search.md": "bb4785df4757d84f1aff09d34cdb84043e7099684b9731a24a1d79cc3c0df172",
+        "references/tabs.md": "c49081529a200bfc62c95d41229e5dd7368f2e35cd5775ccaaab3289ed1fd7eb",
+        "references/toolbar-and-headers.md": "14d9a71dd949bd2b28a5bd531f6b9c1b4f3fa847a86db8c5218fee67b5295769",
+        "references/zoom-transitions.md": "cacc1665e9f3044762765d2cd55fd1ead9627f06478f12dfa2280c6f9ae88ede"
+      }
+    },
+    {
+      "name": "expo-animation",
+      "repository": "expo/skills",
+      "ref": "main",
+      "path": "plugins/expo/skills/expo-animation",
+      "source": "https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-animation",
+      "file_sha256": {
+        "LICENSE": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+        "RECIPES.md": "4db141cb346d49231c94a95aaa50844b85a71c47ec543e9f9f5a1f453abc9883",
+        "SKILL.md": "915279236d5ff74ad1ca6004d13917ba9792853c28e5e10cfec4e0884bcc3ebf",
+        "agents/openai.yaml": "7667e1a159300ee640ffb6ed4f81281dfdc0e3a789d4f3e5179c32ab3565795a"
+      }
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "repository": "supabase/agent-skills",
+      "ref": "main",
+      "path": "skills/supabase-postgres-best-practices",
+      "source": "https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices",
+      "file_sha256": {
+        "CHANGELOG.md": "751ad110037c85d400018c9894716a04fa46357ff55c22b1169b280752e19e88",
+        "SKILL.md": "ad65e776f45e761bafc609d3f506c77c1032225aa65e0c4c02f241b8071e5855",
+        "references/_contributing.md": "191e039e7d94764e6073410b513b559f9a594e0fdf0252a30c2a2986df2ab3bc",
+        "references/_sections.md": "c9e992612b422c7122de0b7542ebc2450db283edaab08cfe86c6d657fcccccd5",
+        "references/_template.md": "6299954250f212caabe339d752c3e5313a8e07d1a182a4e4b425baee91df1bd2",
+        "references/advanced-full-text-search.md": "40c2606bbb4c4dce31308f201b24cc7f58c7df05b1d9c6856fe2b888d3b7cf28",
+        "references/advanced-jsonb-indexing.md": "24cacf6a8bc35901dd566d24502ce8e57f810a5c196b897e61d52726e521d106",
+        "references/conn-idle-timeout.md": "630588902c00fcec59a5988cc5d042f76dcf2c923a535abfd8c47dca205eaed5",
+        "references/conn-limits.md": "11b2a67a7c7679cbbc5d807bbb17e69c98484a581d0c8b929c03408f412b81b2",
+        "references/conn-pooling.md": "88cf086bf98ba865d2e9d0579974e1366b14157619d6a93e7da77be91084e4a5",
+        "references/conn-prepared-statements.md": "174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+        "references/data-batch-inserts.md": "531933b82d6a622d0fae29e0ea80be6fe5d78655adf2804c271ea84a1930de37",
+        "references/data-n-plus-one.md": "21a44905e5b16a42741892ec34bb1bfef124d049b140a76934a9acd0f46f5fc2",
+        "references/data-pagination.md": "73c9fa10a3d439bedea0e11b640bd25bf30dd50f0d9006cf85baf7c3151543fa",
+        "references/data-upsert.md": "2612af83b20a2701dde30ef1f8d7efd26b7e9eef84717226b8f038a2d2150ff7",
+        "references/lock-advisory.md": "c88d259dbf81c3771438f59a165f7eab8acd09999dd370bdf807521c73f35aab",
+        "references/lock-deadlock-prevention.md": "09aee46f51d7178c8e55fe056cd5a94a64ba2c122fe418e6900cd99f297b2347",
+        "references/lock-short-transactions.md": "5aa7f61095916986d39644b446cdbcd2bacca7ef698a3bb50b3f82dd60207602",
+        "references/lock-skip-locked.md": "6c45077f430f29cd9cd8f448c94d578e827e7bd023fcdaf717a756acb116fa4b",
+        "references/monitor-explain-analyze.md": "4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+        "references/monitor-pg-stat-statements.md": "89dca99d4e894fcbdcac136be7ad9fbc03d1342904f065c1b198dc9cf495f098",
+        "references/monitor-vacuum-analyze.md": "2892272011710eb49b3f185ec12f15ce9ce4c365792c672f6e2a9c90da426a1a",
+        "references/query-composite-indexes.md": "73e42424e671f0266e74fdb220db3196790f69fb43e2b19c7b9483eb4971b554",
+        "references/query-covering-indexes.md": "daf2a7f0477fb7357b62b5fb5b185b1995a77a186347e45cb780e25e7a7589b6",
+        "references/query-index-types.md": "472a74f22c2df203bd0154999b3a5a0187cca2ab3d9a3978e305bb7c32f1a282",
+        "references/query-missing-indexes.md": "91ad8b0ff4365704b4830a7f077c6f140f7140fd5d3ce5cd0b92b160cf9e25f1",
+        "references/query-partial-indexes.md": "6448982bc8558c6555284958edc331b29239c6a0130e6b4501dd6d4da607a6dd",
+        "references/schema-constraints.md": "90e8efda3e9e81095e642911ad4aae2809d160f29414338fa997253238f510f8",
+        "references/schema-data-types.md": "e01b58c14c7f3f65d8ead580b9a4fcf70b83baaab0f9a5f83c569c9fd113e8c8",
+        "references/schema-foreign-key-indexes.md": "7587713d12a65a212365459b3d39e4717d8a79e4073b10bd62f1054d8192c0dd",
+        "references/schema-lowercase-identifiers.md": "4bc80f70865f2390872591f326c8a6be6456a0aeb5a7e5a2475d7cd9d43059ab",
+        "references/schema-partitioning.md": "541e13fbeaf4bb1485c9059d4c9417dbdb766cf16f4237cd63a04ada7ec45b90",
+        "references/schema-primary-keys.md": "3c8beabef82066f9a0838b926da0885117fd2d9a263aaf84cb5ca9e5f0d400e9",
+        "references/security-privileges.md": "095909274a4fb43df785d7144cf674eeb40284d2d45628f14af4108737b93663",
+        "references/security-rls-basics.md": "e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+        "references/security-rls-performance.md": "2e1faeca7d5746e246b1c78f9492fe2a9cfa41c4d7fa1e23c402d58fa18ea014"
+      }
+    }
+  ]
+}

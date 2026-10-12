@@ -1,0 +1,519 @@
+[
+  {
+    "route": "begging",
+    "begging_reward": 15,
+    "days": 29930,
+    "end_age": 100,
+    "gross": 393900,
+    "spent": 205200,
+    "final_wallet": 188700,
+    "counts": {
+      "work": 26260,
+      "eat": 2052,
+      "rest": 1618,
+      "study": 0
+    },
+    "milestone_ages": {},
+    "age_bands": {
+      "18\u201339": {
+        "days": 8030,
+        "work": 7344,
+        "eat": 394,
+        "rest": 292,
+        "study": 0,
+        "food_spend": 39400
+      },
+      "40\u201359": {
+        "days": 7300,
+        "work": 6587,
+        "eat": 449,
+        "rest": 264,
+        "study": 0,
+        "food_spend": 44900
+      },
+      "60\u201374": {
+        "days": 5475,
+        "work": 4876,
+        "eat": 404,
+        "rest": 195,
+        "study": 0,
+        "food_spend": 40400
+      },
+      "75\u201389": {
+        "days": 5475,
+        "work": 4601,
+        "eat": 463,
+        "rest": 411,
+        "study": 0,
+        "food_spend": 46300
+      },
+      "90\u201399": {
+        "days": 3650,
+        "work": 2852,
+        "eat": 342,
+        "rest": 456,
+        "study": 0,
+        "food_spend": 34200
+      }
+    }
+  },
+  {
+    "route": "courier",
+    "begging_reward": 15,
+    "days": 29930,
+    "end_age": 100,
+    "gross": 3454010,
+    "spent": 277600,
+    "final_wallet": 3176410,
+    "counts": {
+      "work": 25023,
+      "eat": 2651,
+      "rest": 2256,
+      "study": 0
+    },
+    "milestone_ages": {
+      "bike": 18.82,
+      "delivery_kit": 19.38
+    },
+    "age_bands": {
+      "18\u201339": {
+        "days": 8030,
+        "work": 6942,
+        "eat": 552,
+        "rest": 536,
+        "study": 0,
+        "food_spend": 55200
+      },
+      "40\u201359": {
+        "days": 7300,
+        "work": 6205,
+        "eat": 599,
+        "rest": 496,
+        "study": 0,
+        "food_spend": 59900
+      },
+      "60\u201374": {
+        "days": 5475,
+        "work": 4595,
+        "eat": 512,
+        "rest": 368,
+        "study": 0,
+        "food_spend": 51200
+      },
+      "75\u201389": {
+        "days": 5475,
+        "work": 4499,
+        "eat": 576,
+        "rest": 400,
+        "study": 0,
+        "food_spend": 57600
+      },
+      "90\u201399": {
+        "days": 3650,
+        "work": 2782,
+        "eat": 412,
+        "rest": 456,
+        "study": 0,
+        "food_spend": 41200
+      }
+    }
+  },
+  {
+    "route": "technology",
+    "begging_reward": 15,
+    "days": 29930,
+    "end_age": 100,
+    "gross": 26173560,
+    "spent": 467300,
+    "final_wallet": 25706260,
+    "counts": {
+      "work": 22660,
+      "eat": 2298,
+      "rest": 3512,
+      "study": 1460
+    },
+    "milestone_ages": {
+      "bike": 18.82,
+      "delivery_kit": 19.38,
+      "laptop": 20.47,
+      "enrolled": 22.79,
+      "graduated": 32.13,
+      "junior": 32.13,
+      "engineer": 37.02,
+      "senior": 47.22
+    },
+    "age_bands": {
+      "18\u201339": {
+        "days": 8030,
+        "work": 5359,
+        "eat": 468,
+        "rest": 743,
+        "study": 1460,
+        "food_spend": 46800
+      },
+      "40\u201359": {
+        "days": 7300,
+        "work": 5857,
+        "eat": 506,
+        "rest": 937,
+        "study": 0,
+        "food_spend": 50600
+      },
+      "60\u201374": {
+        "days": 5475,
+        "work": 4341,
+        "eat": 439,
+        "rest": 695,
+        "study": 0,
+        "food_spend": 43900
+      },
+      "75\u201389": {
+        "days": 5475,
+        "work": 4283,
+        "eat": 507,
+        "rest": 685,
+        "study": 0,
+        "food_spend": 50700
+      },
+      "90\u201399": {
+        "days": 3650,
+        "work": 2820,
+        "eat": 378,
+        "rest": 452,
+        "study": 0,
+        "food_spend": 37800
+      }
+    }
+  },
+  {
+    "route": "business",
+    "begging_reward": 15,
+    "days": 29930,
+    "end_age": 100,
+    "gross": 24622130,
+    "spent": 444800,
+    "final_wallet": 24177330,
+    "counts": {
+      "work": 22170,
+      "eat": 2273,
+      "rest": 4027,
+      "study": 1460
+    },
+    "milestone_ages": {
+      "bike": 18.82,
+      "delivery_kit": 19.38,
+      "laptop": 20.47,
+      "enrolled": 22.53,
+      "graduated": 31.88,
+      "analyst": 31.88,
+      "manager": 36.76,
+      "executive": 46.96
+    },
+    "age_bands": {
+      "18\u201339": {
+        "days": 8030,
+        "work": 5356,
+        "eat": 468,
+        "rest": 746,
+        "study": 1460,
+        "food_spend": 46800
+      },
+      "40\u201359": {
+        "days": 7300,
+        "work": 5733,
+        "eat": 502,
+        "rest": 1065,
+        "study": 0,
+        "food_spend": 50200
+      },
+      "60\u201374": {
+        "days": 5475,
+        "work": 4203,
+        "eat": 431,
+        "rest": 841,
+        "study": 0,
+        "food_spend": 43100
+      },
+      "75\u201389": {
+        "days": 5475,
+        "work": 4146,
+        "eat": 500,
+        "rest": 829,
+        "study": 0,
+        "food_spend": 50000
+      },
+      "90\u201399": {
+        "days": 3650,
+        "work": 2732,
+        "eat": 372,
+        "rest": 546,
+        "study": 0,
+        "food_spend": 37200
+      }
+    }
+  },
+  {
+    "route": "trades",
+    "begging_reward": 15,
+    "days": 29930,
+    "end_age": 100,
+    "gross": 23118440,
+    "spent": 313800,
+    "final_wallet": 22804640,
+    "counts": {
+      "work": 24260,
+      "eat": 2613,
+      "rest": 2937,
+      "study": 120
+    },
+    "milestone_ages": {
+      "bike": 18.82,
+      "delivery_kit": 19.38,
+      "trade_tools": 19.75,
+      "enrolled": 20.35,
+      "graduated": 21.11,
+      "mechanic": 21.11,
+      "specialist": 24.29,
+      "master": 30.88
+    },
+    "age_bands": {
+      "18\u201339": {
+        "days": 8030,
+        "work": 6655,
+        "eat": 542,
+        "rest": 713,
+        "study": 120,
+        "food_spend": 54200
+      },
+      "40\u201359": {
+        "days": 7300,
+        "work": 5993,
+        "eat": 588,
+        "rest": 719,
+        "study": 0,
+        "food_spend": 58800
+      },
+      "60\u201374": {
+        "days": 5475,
+        "work": 4441,
+        "eat": 501,
+        "rest": 533,
+        "study": 0,
+        "food_spend": 50100
+      },
+      "75\u201389": {
+        "days": 5475,
+        "work": 4380,
+        "eat": 569,
+        "rest": 526,
+        "study": 0,
+        "food_spend": 56900
+      },
+      "90\u201399": {
+        "days": 3650,
+        "work": 2791,
+        "eat": 413,
+        "rest": 446,
+        "study": 0,
+        "food_spend": 41300
+      }
+    }
+  },
+  {
+    "route": "technology",
+    "begging_reward": 12,
+    "days": 29930,
+    "end_age": 100,
+    "gross": 26020574,
+    "spent": 467200,
+    "final_wallet": 25553374,
+    "counts": {
+      "work": 22674,
+      "eat": 2297,
+      "rest": 3499,
+      "study": 1460
+    },
+    "milestone_ages": {
+      "bike": 19.17,
+      "delivery_kit": 19.74,
+      "laptop": 20.83,
+      "enrolled": 23.15,
+      "graduated": 32.49,
+      "junior": 32.49,
+      "engineer": 37.38,
+      "senior": 47.58
+    },
+    "age_bands": {
+      "18\u201339": {
+        "days": 8030,
+        "work": 5372,
+        "eat": 467,
+        "rest": 731,
+        "study": 1460,
+        "food_spend": 46700
+      },
+      "40\u201359": {
+        "days": 7300,
+        "work": 5857,
+        "eat": 506,
+        "rest": 937,
+        "study": 0,
+        "food_spend": 50600
+      },
+      "60\u201374": {
+        "days": 5475,
+        "work": 4341,
+        "eat": 439,
+        "rest": 695,
+        "study": 0,
+        "food_spend": 43900
+      },
+      "75\u201389": {
+        "days": 5475,
+        "work": 4283,
+        "eat": 507,
+        "rest": 685,
+        "study": 0,
+        "food_spend": 50700
+      },
+      "90\u201399": {
+        "days": 3650,
+        "work": 2821,
+        "eat": 378,
+        "rest": 451,
+        "study": 0,
+        "food_spend": 37800
+      }
+    }
+  },
+  {
+    "route": "begging",
+    "begging_reward": 12,
+    "days": 29930,
+    "end_age": 100,
+    "gross": 315120,
+    "spent": 205200,
+    "final_wallet": 109920,
+    "counts": {
+      "work": 26260,
+      "eat": 2052,
+      "rest": 1618,
+      "study": 0
+    },
+    "milestone_ages": {},
+    "age_bands": {
+      "18\u201339": {
+        "days": 8030,
+        "work": 7344,
+        "eat": 394,
+        "rest": 292,
+        "study": 0,
+        "food_spend": 39400
+      },
+      "40\u201359": {
+        "days": 7300,
+        "work": 6587,
+        "eat": 449,
+        "rest": 264,
+        "study": 0,
+        "food_spend": 44900
+      },
+      "60\u201374": {
+        "days": 5475,
+        "work": 4876,
+        "eat": 404,
+        "rest": 195,
+        "study": 0,
+        "food_spend": 40400
+      },
+      "75\u201389": {
+        "days": 5475,
+        "work": 4601,
+        "eat": 463,
+        "rest": 411,
+        "study": 0,
+        "food_spend": 46300
+      },
+      "90\u201399": {
+        "days": 3650,
+        "work": 2852,
+        "eat": 342,
+        "rest": 456,
+        "study": 0,
+        "food_spend": 34200
+      }
+    }
+  },
+  {
+    "route": "technology",
+    "begging_reward": 15,
+    "days": 29930,
+    "end_age": 100,
+    "gross": 26173560,
+    "spent": 21447300,
+    "final_wallet": 4726260,
+    "counts": {
+      "work": 22660,
+      "eat": 2298,
+      "rest": 3512,
+      "study": 1460
+    },
+    "milestone_ages": {
+      "bike": 18.82,
+      "delivery_kit": 19.38,
+      "laptop": 20.47,
+      "enrolled": 22.79,
+      "graduated": 32.13,
+      "junior": 32.13,
+      "first_house": 33.57,
+      "sedan": 34.65,
+      "engineer": 37.02,
+      "senior": 47.22,
+      "villa": 49.43,
+      "luxury_car": 52.27,
+      "private_jet": 88.36
+    },
+    "age_bands": {
+      "18\u201339": {
+        "days": 8030,
+        "work": 5359,
+        "eat": 468,
+        "rest": 743,
+        "study": 1460,
+        "food_spend": 46800
+      },
+      "40\u201359": {
+        "days": 7300,
+        "work": 5857,
+        "eat": 506,
+        "rest": 937,
+        "study": 0,
+        "food_spend": 50600
+      },
+      "60\u201374": {
+        "days": 5475,
+        "work": 4341,
+        "eat": 439,
+        "rest": 695,
+        "study": 0,
+        "food_spend": 43900
+      },
+      "75\u201389": {
+        "days": 5475,
+        "work": 4283,
+        "eat": 507,
+        "rest": 685,
+        "study": 0,
+        "food_spend": 50700
+      },
+      "90\u201399": {
+        "days": 3650,
+        "work": 2820,
+        "eat": 378,
+        "rest": 452,
+        "study": 0,
+        "food_spend": 37800
+      }
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "career",
+    "name": "Build a career",
+    "kind": "career",
+    "targetId": "senior_engineer",
+    "available": true,
+    "icon": "flag"
+  },
+  {
+    "id": "homeowner",
+    "name": "Become a homeowner",
+    "kind": "homeowner",
+    "targetId": "small_house",
+    "available": true,
+    "icon": "flag"
+  },
+  {
+    "id": "garage",
+    "name": "Build a garage",
+    "kind": "garage",
+    "targetId": "vehicles",
+    "available": true,
+    "icon": "flag"
+  },
+  {
+    "id": "lifetime",
+    "name": "Complete a lifetime",
+    "kind": "age_limit",
+    "targetId": "",
+    "available": true,
+    "icon": "flag"
+  }
+]

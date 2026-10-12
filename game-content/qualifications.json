@@ -1,0 +1,68 @@
+[
+  {
+    "id": "trade_certificate",
+    "name": "Trade certificate",
+    "tuition": "25000",
+    "studyDays": 120,
+    "collegeIds": [
+      "oak_trade"
+    ],
+    "available": true,
+    "icon": "school"
+  },
+  {
+    "id": "computing_degree",
+    "name": "Computing degree",
+    "tuition": "180000",
+    "studyDays": 1460,
+    "collegeIds": [
+      "riverside"
+    ],
+    "available": true,
+    "icon": "school"
+  },
+  {
+    "id": "business_degree",
+    "name": "Business degree",
+    "tuition": "160000",
+    "studyDays": 1460,
+    "collegeIds": [
+      "riverside"
+    ],
+    "available": true,
+    "icon": "school"
+  },
+  {
+    "id": "nursing_degree",
+    "name": "Nursing degree",
+    "tuition": "200000",
+    "studyDays": 1460,
+    "collegeIds": [
+      "riverside"
+    ],
+    "available": true,
+    "icon": "school"
+  },
+  {
+    "id": "engineering_degree",
+    "name": "Engineering degree",
+    "tuition": "220000",
+    "studyDays": 1460,
+    "collegeIds": [
+      "riverside"
+    ],
+    "available": true,
+    "icon": "school"
+  },
+  {
+    "id": "design_certificate",
+    "name": "Design certificate",
+    "tuition": "40000",
+    "studyDays": 365,
+    "collegeIds": [
+      "riverside"
+    ],
+    "available": true,
+    "icon": "school"
+  }
+]

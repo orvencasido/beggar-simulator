@@ -1,0 +1,15 @@
+[
+  {
+    "id": "work_contract",
+    "name": "Career assignment",
+    "kind": "work_contract",
+    "firstDay": 180,
+    "intervalDays": 365,
+    "requiredWorkDays": 10,
+    "durationDays": 60,
+    "bonusDivisor": 10,
+    "lifeBonusCap": "100000",
+    "available": true,
+    "icon": "briefcase"
+  }
+]

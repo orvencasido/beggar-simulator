@@ -1,0 +1,24 @@
+[
+  {
+    "id": "riverside",
+    "name": "Riverside College",
+    "qualificationIds": [
+      "computing_degree",
+      "business_degree",
+      "nursing_degree",
+      "engineering_degree",
+      "design_certificate"
+    ],
+    "available": true,
+    "icon": "school"
+  },
+  {
+    "id": "oak_trade",
+    "name": "Oak Trade Institute",
+    "qualificationIds": [
+      "trade_certificate"
+    ],
+    "available": true,
+    "icon": "school"
+  }
+]
